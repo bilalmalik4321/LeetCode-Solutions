@@ -1,4 +1,3 @@
-import NetflixPrep.Solution.ListNode;
 
 // Runtime: 2 ms, faster than 77.36% of Java online submissions for Add Two Numbers.
 // Memory Usage: 39.4 MB, less than 38.91% of Java online submissions for Add Two Numbers.
@@ -18,6 +17,14 @@ import NetflixPrep.Solution.ListNode;
 
 class Solution {
     
+    public class ListNode {
+        int val;
+        ListNode next;
+        ListNode() {}
+        ListNode(int val) { this.val = val; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+    }
+
     public boolean carry = false;
 
     public ListNode checkSum(ListNode listNode, ListNode l1, ListNode l2){

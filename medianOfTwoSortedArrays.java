@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 //Runtime: 3 ms, faster than 38.02% of Java online submissions for Median of Two Sorted Arrays.
 //Memory Usage: 40 MB, less than 79.46% of Java online submissions for Median of Two Sorted Arrays.
 
@@ -12,7 +14,7 @@ class Solution {
         
         // initialize arrayList to place values from both arrays in order        
         ArrayList<Integer> combinedOrderedList= new ArrayList<Integer>(); 
-        
+
         // while the arrayList is not the size of the combined arrays
         while(combinedOrderedList.size() != combinedLengths){
             // if both counters have not reached the end of the array

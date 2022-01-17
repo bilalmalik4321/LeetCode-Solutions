@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class SparseVector {
     
     HashMap<Integer,Integer> indexToVal = new HashMap<>();
