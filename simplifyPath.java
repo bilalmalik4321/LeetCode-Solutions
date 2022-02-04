@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 class Solution {
     public String simplifyPath(String path) {
         Stack<String> stackOfFileNames = new Stack<>();

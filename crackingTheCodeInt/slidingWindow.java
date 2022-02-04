@@ -1,8 +1,6 @@
 package crackingTheCodeInt;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 
 /*
 find total subarrays that add up to 9
@@ -122,7 +120,6 @@ class Solution {
         //Q4
         public String slidingWindow(String arr, String chars){
             HashSet<Character> charSet = new HashSet<>();
-            String result;
 
             for(int i=0; i<chars.length(); i++)
                 charSet.add(chars.charAt(i));
@@ -133,7 +130,6 @@ class Solution {
                 left++;
             }
 
-            String currString;
 
 
 

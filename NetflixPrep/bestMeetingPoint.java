@@ -6,7 +6,7 @@ Given N people on an MxM grid, find the point that requires the least total dist
 Consider a 5x5 grid with 3 people; one at X(1,2), Y(4,2) and Z(3,3).
 */
 
-public class bestMeetingPoint {
+class Solution {
     
     public int[] bestMeetingPoint(int[][] locations){
         

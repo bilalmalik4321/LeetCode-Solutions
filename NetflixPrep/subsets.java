@@ -3,7 +3,7 @@ package NetflixPrep;
 import java.util.ArrayList;
 import java.util.List;
 
-public class subsets {
+class Solution {
     
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> subsets = new ArrayList<>();
