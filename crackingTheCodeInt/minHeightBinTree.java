@@ -1,0 +1,5 @@
+package crackingTheCodeInt;
+
+class Solution {
+    
+}
